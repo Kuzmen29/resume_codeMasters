@@ -1,0 +1,82 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+.resume {
+    margin: 50px;
+    font-family: Calibri;
+}
+
+.resume__brief-information {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.resume__brief-information-text h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.resume__brief-information-text h1::after {
+    background-color: rgb(49, 132, 155); /* Цвет маркера */
+    display: block;
+    content: ""; /* Сам маркер */
+    width: 100%;
+    height: 3px;
+}
+
+.resume__brief-information-text h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(69, 71, 72);
+    margin-bottom: 30px;
+}
+.resume__brief-information-text h3 {
+    font-size: 1em;
+    color: rgb(64, 64, 64);
+}
+
+.resume__brief-information-img {
+    width: 150px;
+}
+.resume__information {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.resume__table-information {
+    display: flex;
+}
+.resume__head-table-information{
+    width: 30%;
+    background-color: rgb(218, 238, 243);
+    text-align: right;
+    padding: 20px;
+    font-weight: bold;
+
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+.resume__body-table-information {
+    padding: 20px 0 0 20px;
+    font-size: 1.2em;
+}
+.resume__body-title-table-information {
+    color: rgb(49, 132, 155);
+    font-weight: bold;
+}
+.resume__body-list-table-information {
+
+    /* padding-left: 20px; */
+}
+.resume__body-list-table-information li:before {
+    background-color: rgb(49, 132, 155);
+    display: inline-block;
+    content: ""; 
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 0 20px 3px 0;
+
+}
